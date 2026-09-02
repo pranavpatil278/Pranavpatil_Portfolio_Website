@@ -1,0 +1,148 @@
+export const portfolioData = {
+  name: 'Pranav Balasaheb Patil',
+  title: 'AI/ML Engineer',
+  tagline: 'Building intelligent systems that learn, adapt, and solve real-world problems.',
+  specialization: 'Artificial Intelligence & Machine Learning',
+  location: 'Virar (West), Maharashtra, India',
+  phone: '+91 9172219445',
+  about: {
+    heading: 'About Me',
+    paragraphs: [
+      "I'm Pranav Patil, a Master's student in Computer Science with a deep passion for Artificial Intelligence and Machine Learning. My journey began with a Bachelor's in Computer Science, where I built a strong foundation in algorithms, data structures, and software engineering — and it now continues as I dive deeper into the world of intelligent systems.",
+      "I'm fascinated by how machines can learn from data to make decisions, recognize patterns, and solve problems that were once thought to be exclusively human. My focus areas include machine learning, deep learning, transfer learning, and building full-stack AI applications that deliver real value to users.",
+      "I'm actively seeking internship and entry-level opportunities where I can apply my skills, learn from experienced teams, and contribute to meaningful AI/ML projects that create real impact.",
+    ],
+    highlights: [
+      { icon: 'GraduationCap', label: "Master's in CS", sub: 'Viva College, 2028' },
+      { icon: 'Brain', label: 'AI/ML Focus', sub: 'Deep Learning & NLP' },
+      { icon: 'Code2', label: 'Full-Stack AI', sub: 'Python · React · FastAPI' },
+      { icon: 'Target', label: 'Career Goal', sub: 'AI/ML Engineer' },
+    ],
+  },
+  education: [
+    {
+      degree: "Master of Science in Computer Science",
+      institution: 'Viva College',
+      period: '2024 — 2028',
+      description: 'Pursuing advanced studies in Computer Science with a specialization in Artificial Intelligence and Machine Learning. Coursework includes advanced algorithms, machine learning, deep learning, and data science.',
+      status: 'In Progress',
+    },
+    {
+      degree: "Bachelor of Science in Computer Science",
+      institution: 'R.P. Institute of Hospitality and Management, University of Mumbai',
+      period: 'Completed',
+      description: 'Completed a Bachelor of Science in Computer Science with a CGPA of 7.45 and a strong foundation in programming, data structures, DBMS, and software development.',
+      status: 'Completed',
+    },
+  ],
+  skills: [
+    {
+      icon: 'Code2',
+      title: 'Programming Languages',
+      skills: ['Python', 'JavaScript'],
+    },
+    {
+      icon: 'Brain',
+      title: 'AI / Machine Learning',
+      skills: ['Machine Learning', 'Deep Learning', 'Transfer Learning', 'AI Application Development'],
+    },
+    {
+      icon: 'Cpu',
+      title: 'Frontend Development',
+      skills: ['React', 'Vite', 'HTML', 'CSS', 'Tailwind CSS'],
+    },
+    {
+      icon: 'Server',
+      title: 'Backend Development',
+      skills: ['FastAPI', 'Flask', 'REST APIs'],
+    },
+    {
+      icon: 'Database',
+      title: 'Databases',
+      skills: ['MySQL', 'SQL'],
+    },
+    {
+      icon: 'Sparkles',
+      title: 'AI / API Integration',
+      skills: ['OpenRouter API', 'AI Model Integration', 'Prompt Engineering'],
+    },
+    {
+      icon: 'Layers',
+      title: 'Core Concepts',
+      skills: ['OOP', 'DBMS', 'CRUD Operations', 'Authentication', 'API Development'],
+    },
+    {
+      icon: 'Wrench',
+      title: 'Tools & Platforms',
+      skills: ['Git', 'GitHub', 'Vercel', 'Render'],
+    },
+  ],
+  certifications: [
+    {
+      name: 'Foundations of AI and Machine Learning',
+      issuer: 'Microsoft',
+    },
+    {
+      name: '30 Days of Python using AI',
+      issuer: 'Be10x',
+    },
+    {
+      name: 'Introduction to Artificial Intelligence',
+      issuer: 'Simplilearn',
+    },
+  ],
+  strengths: [
+    'Fast learner with strong curiosity',
+    'Problem-solving mindset',
+    'Backend development understanding',
+    'Adaptable and eager to learn new technologies',
+  ],
+  languages: ['English', 'Hindi', 'Marathi'],
+  projects: [
+    {
+      name: 'CarrierPilotAI',
+      tagline: 'AI-Powered Career Assistant',
+      description: 'A full-stack career assistant web application that helps users analyze resumes, calculate ATS scores, and generate personalized resume improvement suggestions using AI.',
+      problem: 'Job seekers often struggle to understand why their resumes get rejected by Applicant Tracking Systems. CarrierPilotAI solves this by providing instant ATS scoring and AI-driven suggestions to optimize resumes for specific roles.',
+      tech: ['Python', 'FastAPI', 'React', 'AI Integration', 'Tailwind CSS'],
+      features: ['Resume analysis with ATS scoring', 'AI-powered improvement suggestions', 'Personalized career recommendations', 'Clean, responsive UI'],
+      github: 'https://github.com/pranavpatil278/CarrierPilotAI',
+      demo: 'https://carrier-pilot-ai-woad.vercel.app/',
+    },
+    {
+      name: 'AI-Interview-Coach',
+      tagline: 'AI Interview Preparation Platform',
+      description: 'A full-stack career assistant and interview preparation web application that helps users analyze their resumes, configure personalized technical interview sessions, and receive AI-driven performance evaluations.',
+      problem: 'Technical interview preparation is often unstructured and lacks personalized feedback. AI-Interview-Coach simulates realistic interview sessions and provides actionable AI-driven evaluations to help candidates improve.',
+      tech: ['Python', 'FastAPI', 'React', 'AI Integration', 'REST APIs'],
+      features: ['Resume analysis', 'Personalized interview session configuration', 'AI-driven performance evaluation', 'Real-time feedback and scoring'],
+      github: 'https://github.com/pranavpatil278/AI-Interview-Coach',
+      demo: 'https://ai-interview-coach-367885469097.asia-east1.run.app',
+    },
+    {
+      name: 'DocuChat_AI',
+      tagline: 'Enterprise RAG System for PDF Intelligence',
+      description: 'A full-stack, enterprise-ready Retrieval-Augmented Generation (RAG) system with real-time PDF ingestion, recursive semantic chunking, dense vector similarity search, and conversational query rewriting with strict citation grounding.',
+      problem: 'Organizations need to extract insights from large document sets quickly and accurately. DocuChat_AI solves this by combining RAG architecture with semantic chunking and citation grounding to deliver trustworthy, source-backed answers from PDFs.',
+      tech: ['Python', 'RAG', 'Vector Search', 'AI Integration', 'REST APIs'],
+      features: ['Real-time PDF ingestion', 'Recursive semantic chunking', 'Dense vector similarity search', 'Conversational query rewriting', 'Strict citation grounding', 'Automated 5-category evaluation benchmark'],
+      github: 'https://github.com/pranavpatil278/DocuChat_AI',
+      demo: 'https://docuchat-ai-pdf-rag-assistant.ai.studio',
+    },
+    {
+      name: 'EduTrack',
+      tagline: 'Student Management System',
+      description: 'A web-based Student Management System developed using Python and Flask. Provides an efficient way to manage student records and attendance through a simple, responsive, and user-friendly interface.',
+      problem: 'Schools and educational institutions need a lightweight, accessible system to manage student records and track attendance. EduTrack provides a clean, no-frills solution that works across devices.',
+      tech: ['Python', 'Flask', 'MySQL', 'HTML', 'CSS'],
+      features: ['Student record management', 'Attendance tracking', 'Responsive, user-friendly interface', 'CRUD operations with MySQL'],
+      github: 'https://github.com/pranavpatil278/EduTrack',
+      demo: null,
+    },
+  ],
+  social: {
+    github: 'https://github.com/pranavpatil278',
+    linkedin: 'https://www.linkedin.com/in/pranav-patil-269ab241b',
+    email: 'pranavpatil83690@gmail.com',
+  },
+};
